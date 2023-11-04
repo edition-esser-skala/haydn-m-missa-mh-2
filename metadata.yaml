@@ -1,0 +1,18 @@
+composer:
+  last: Haydn
+  first: Johann Michael
+title: Missa
+subtitle: Kyrie fragment & Gloria
+id: MH 2
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
+license: cc-by-sa-4.0
+sources:
+  A1:
+    siglum: F-Pn
+    shelfmark: MS-146
+    rism: 840016281
+    url: https://gallica.bnf.fr/ark:/12148/btv1b55000000p
+    license: custom (free for non-commercial purposes)
+    principal: true
+imslp:
