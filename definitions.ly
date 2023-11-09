@@ -6,7 +6,15 @@
 \include "ees_articulate.ly"
 
 
+tightNotes = \override Score.SpacingSpanner.common-shortest-duration = #(ly:make-moment 1/16)
+looseNotes = \revert Score.SpacingSpanner.common-shortest-duration
+
+
 tempoKyrie = \tempoMarkup "[Tempo deest]"
+tempoGloria = \tempoMarkup "[Tempo deest]"
+  tempoQuiTollis = \tempoMarkup "Adagio"
+  tempoQuoniam = \tempoMarkup "Ani[mato]"
+  tempoInGloria = \tempoMarkup "Allegro"
 
 
 \include "notes/vl1.ly"

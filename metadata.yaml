@@ -1,9 +1,9 @@
 composer:
   last: Haydn
   first: Johann Michael
-title: Missa
-subtitle: Kyrie fragment & Gloria
-id: MH 2
+title: Missa in D minor
+subtitle: Kyrie (fragment), Gloria, Credo (fragment)
+id: MH 2 & 3
 genre: mass
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, b, org
 license: cc-by-sa-4.0
@@ -15,5 +15,12 @@ sources:
     url: https://gallica.bnf.fr/ark:/12148/btv1b55000000p
     license: custom (free for non-commercial purposes)
     principal: true
-    notes: 8-page fragment of the full score, comprising the final page of Kyrie and the complete Gloria
+    notes: full score (8-page fragment), comprising the final page of the Kyrie and several movements of the Gloria (Et in terra – Qui tollis – Quoniam)
+  A2:
+    siglum: F-Pn
+    shelfmark: MS-148
+    rism: 840016285
+    url: https://gallica.bnf.fr/ark:/12148/btv1b74000797
+    license: custom (free for non-commercial purposes)
+    notes: full score (6-page fragment), comprising the final movement of the Gloria (In gloria Dei Patris) and the first movement of the Credo
 imslp:
