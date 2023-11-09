@@ -12,13 +12,13 @@
   markup-system-spacing.minimum-distance = #10
   system-system-spacing.basic-distance = #19.5
   system-system-spacing.minimum-distance = #19.5
-  % systems-per-page = #2
+  systems-per-page = #2
 }
 
 \book {
   \bookpart {
     \section "1" "Kyrie"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
@@ -70,7 +70,7 @@
         \new FiguredBass { \KyrieBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 110 }
     }
   }
 }
