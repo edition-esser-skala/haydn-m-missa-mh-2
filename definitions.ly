@@ -15,6 +15,7 @@ tempoGloria = \tempoMarkup "[Tempo deest]"
   tempoQuiTollis = \tempoMarkup "Adagio"
   tempoQuoniam = \tempoMarkup "Ani[mato]"
   tempoInGloria = \tempoMarkup "Allegro"
+tempoCredo = \tempoMarkup "Allegro"
 
 
 \include "notes/vl1.ly"

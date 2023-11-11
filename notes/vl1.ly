@@ -330,3 +330,91 @@ GloriaViolinoI = {
     d,4.\fermata \bar "|." %310 finis
   }
 }
+
+CredoViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \minor \time 2/2 \tempoCredo
+    R1*2_\critnote
+    r2 d'\fE
+    cis4 b! a g
+    f2. g4 %5
+    a2 r
+    r d4 c!
+    b2 b
+    b a4 a
+    a2 g %10
+    g2. g4
+    a b c2
+    d4 e f2
+    b,4 c d2~
+    d4 c b a %15
+    g2. g4
+    a2 c4 c
+    c f f e
+    d2. c4
+    b2 b~ %20
+    b a
+    g1
+    a
+    R1*6 %29
+    g2. g4 %30
+    c d e c
+    a h c2
+    f4 e d c
+    h a g2
+    g e' %35
+    e4 f e d
+    c d e2~
+    e4 a, d2
+    d cis
+    d r %40
+    r d
+    g, c!
+    r c
+    f,4 f b2
+    b4 c c2~ %45
+    c4 d d2~
+    d4 c b2~
+    b c
+    a b
+    a1 %50
+    g
+    R1*4 %55
+    es2. es'4
+    es2 d
+    c1~
+    c2 b
+    a b %60
+    b a
+    b b~
+    b b
+    b a4 a
+    g2. g4 %65
+    f2 f'~
+    f f~
+    f f
+    f1
+    r2 d %70
+    d cis
+    d a
+    b4 a d2~
+    d cis
+    d4 cis f2~ %75
+    f e
+    d d4 d
+    d2 cis
+    R1*2 %80
+    r2 d
+    cis4 b! a g
+    f2. g4
+    a1
+    a %85
+    a
+    d~
+    d
+    cis2 d
+    d cis %90
+    d\breve*1/2\fermata \bar "||" %91 finis
+  }
+}

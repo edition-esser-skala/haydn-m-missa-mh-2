@@ -338,3 +338,100 @@ GloriaViolinoII = {
     d,4.\fermata \bar "|." %310 finis
   }
 }
+
+CredoViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \minor \time 2/2 \tempoCredo
+    \mvTr d2.\fE-\critnote e4
+    f2. g4
+    a2 b
+    e,1
+    d %5
+    r2 e
+    a4 g f e
+    d2 g
+    g f4 f
+    f2 e %10
+    e2. e4
+    f g a2
+    b4 b f2
+    g4 a b2~
+    b4 a g f %15
+    f2 e
+    f r
+    r f4 f
+    f b b a
+    g2 g4 f %20
+    e2 f
+    f e
+    f1
+    f~
+    f4 b b a %25
+    g1~
+    g2 f
+    e e
+    d2. d4
+    e2 r %30
+    c2. c4
+    f g a f
+    d e f2
+    g4 f e d
+    e d c2 %35
+    c a'
+    a4 b! a g
+    f2. e8 d
+    e2. e4
+    d2 a'~ %40
+    a g
+    r g~
+    g f
+    r f4 f
+    g1 %45
+    a
+    b4 a g2~
+    g g
+    fis g
+    g fis %50
+    g1
+    R1*2
+    b,2. b'4
+    b2 a %55
+    g1~
+    g2. f4
+    es2 g~
+    g f4 g
+    f f f2 %60
+    g f
+    f g~
+    g g
+    g f4 f
+    f2 e! %65
+    f a~
+    a a~
+    a a
+    a1
+    r2 d, %70
+    e2. e4
+    f2 r
+    r d
+    f4 d a'2
+    a1 %75
+    a2 a
+    a g
+    a1
+    d,2. e4
+    f2. g4 %80
+    a2 b
+    e, e
+    d1
+    e2 e
+    a4 g f2 %85
+    r a
+    a4 g f e
+    d2 h'
+    a a
+    a1 %90
+    a\breve*1/2\fermata \bar "||" %91 finis
+  }
+}

@@ -443,3 +443,150 @@ GloriaTenoreLyrics = \lyricmode {
   a -- %309
   men. %310 finis
 }
+
+CredoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key d \minor \time 2/2 \autoBeamOff \tempoCredo
+    R1*4
+    r2 \mvTr d\fE^\tuttiE %5
+    cis4 b! a g
+    f( g) a a
+    d,2 d'
+    c! c4 c
+    c2 c %10
+    R1
+    r2 f4 e
+    d c d2~
+    d b
+    g c %15
+    c2. c4
+    c2 r
+    R1*4 %21
+    c1~
+    c4 f f e
+    d1~
+    d4 g g f %25
+    e1~
+    e2 d
+    d c
+    c h
+    c r %30
+    R1*9 %39
+    r2 d %40
+    b4 g b( g)
+    c!2 c
+    a4 f a f
+    b2 b4 d
+    g, es r e %45
+    a f r fis
+    g2( b)
+    es1
+    d~
+    d %50
+    b
+    R1*6 %57
+    es,2. es'4
+    es2 d
+    c d %60
+    es1
+    d2 d~
+    d d
+    c c4 c
+    c2. c4 %65
+    a2 r
+    d1
+    d~
+    d2 d
+    a1 %70
+    g2. g4
+    a2 r
+    R1
+    r2 a
+    b4 a d2~ %75
+    d cis
+    d d4 e
+    f2 e
+    R1*4 %82
+    r2 d
+    cis4( b! a g)
+    f2 f' %85
+    e4( d cis b!)
+    a2 a
+    f'1
+    e2 f
+    e1 %90
+    d\breve*1/2\fermata \bar "||" %91 finis
+  }
+}
+
+CredoTenoreLyrics = \lyricmode {
+  Pa -- %5
+  trem o -- mni -- po --
+  ten -- tem, fa --
+  cto -- rem
+  coe -- li et
+  ter -- rae, %10
+
+  et __ _
+  _ _ _
+  in --
+  vi -- si -- %15
+  bi -- li --
+  um,
+
+  Fi -- %22
+  _ li -- um,
+  Fi --
+  _ li -- um %25
+  De --
+  i
+  u -- ni --
+  ge -- ni --
+  tum, %30
+
+  De -- %40
+  um de De --
+  o, lu --
+  men de lu -- mi --
+  ne, De -- um
+  ve -- rum de %45
+  De -- o, de
+  De --
+  o
+  ve --
+  %50
+  ro,
+
+  con -- sub -- %58
+  stan -- ti --
+  a -- lem %60
+  Pa --
+  tri, per __
+  quem
+  o -- mni -- a
+  fa -- cta %65
+  sunt,
+  qui
+  pro --
+  pter
+  nos %70
+  ho -- mi --
+  nes
+
+  et
+  pro -- _ _ %75
+  pter
+  no -- stram sa --
+  lu -- tem
+
+  de -- %83
+  scen --
+  dit, de -- %85
+  scen --
+  dit de
+  coe --
+  _ _
+  _ %90
+  lis. %91 finis
+}

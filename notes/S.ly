@@ -505,19 +505,173 @@ GloriaSopranoLyrics = \lyricmode {
   men. %310 finis
 }
 
+CredoSoprano = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key d \minor \time 2/2 \autoBeamOff \tempoCredo
+    R1*2
+    r2 \mvTr d'\fE^\tuttiE
+    cis4 b! a g
+    f2.( g4) %5
+    a2 r
+    r d4( c!)
+    b2 b
+    b a4 a
+    a2 g %10
+    g2. g4
+    a b c2
+    d4 e f2
+    b,4 c d2~
+    d4 c b( a) %15
+    g2. g4
+    a2 c4 c
+    c( f) f( e)
+    d2. c4
+    b2 b~ %20
+    b a
+    g1
+    a
+    R1*6 %29
+    g2. g4 %30
+    c( d) e( c)
+    a( h) c2
+    f4( e) d( c)
+    h a g2
+    g e' %35
+    e4 f e d
+    c d e2~
+    e4 a, d2
+    d cis
+    d r %40
+    r d
+    g, c!
+    r c
+    f,4 f b2
+    b4 c c2~ %45
+    c4 d d2~
+    d4 c b2~
+    b c
+    a b
+    a1 %50
+    g
+    R1*4 %55
+    es2. es'4
+    es2 d
+    c1~
+    c2 b
+    a b %60
+    b( a)
+    b b~
+    b b
+    b a4 a
+    g2. g4 %65
+    f2 f'~
+    f f~
+    f f
+    f1
+    r2 d %70
+    d cis
+    d a
+    b4 a d2~
+    d cis
+    d4 cis f2~ %75
+    f e
+    d d4 d
+    d2 cis
+    R1*2 %80
+    r2 d
+    cis4 b! a g
+    f2. g4
+    a1
+    a %85
+    a
+    d~
+    d
+    cis2 d
+    d( cis) %90
+    d\breve*1/2\fermata \bar "||" %91 finis
+  }
+}
 
-% Cre -- do in u -- num De -- um,
-% Pa -- trem o -- mni -- po -- ten -- tem,
-% fa -- cto -- rem coe -- li et ter -- rae,
-% vi -- si -- bi -- li -- um o -- mni -- um
-% et in -- vi -- si -- bi -- li -- um.
-% Et in u -- num Do -- mi -- num Je -- sum Chri -- stum,
-% Fi -- li -- um De -- i u -- ni -- ge -- ni -- tum,
-% et ex Pa -- tre na -- tum an -- te o -- mni -- a sae -- cu -- la.
-% De -- um de De -- o, lu -- men de lu -- mi -- ne,
-% De -- um ve -- rum de De -- o ve -- ro,
-% ge -- ni -- tum non fa -- ctum,
-% con -- sub -- stan -- ti -- a -- lem Pa -- tri,
-% per quem o -- mni -- a fa -- cta sunt.
-% Qui pro -- pter nos ho -- mi -- nes
-% et pro -- pter no -- stram sa -- lu
+CredoSopranoLyrics = \lyricmode {
+  Pa -- %3
+  trem o -- mni -- po --
+  ten -- %5
+  tem,
+  fa --
+  cto -- rem
+  coe -- li et
+  ter -- rae, %10
+  vi -- si --
+  bi -- li -- um
+  o -- mni -- um
+  et in -- vi --
+  _ si -- %15
+  bi -- li --
+  um, et in
+  u -- num __
+  Do -- mi --
+  num Je -- %20
+  sum
+  Chri --
+  stum,
+
+  et ex %30
+  Pa -- tre __
+  na -- tum
+  an -- te __
+  o -- mni -- a,
+  an -- te %35
+  o -- _ _ _
+  _ _ _
+  mni -- a
+  sae -- cu --
+  la, %40
+  de
+  De -- o,
+  de
+  lu -- mi -- ne,
+  De -- um ve -- %45
+  _ rum __
+  de De --
+  _
+  _ o
+  ve -- %50
+  ro,
+
+  con -- sub -- %56
+  stan -- ti --
+  a --
+  _
+  _ lem %60
+  Pa --
+  tri, per __
+  quem
+  o -- mni -- a
+  fa -- cta %65
+  sunt, qui __
+  pro --
+  pter
+  nos,
+  nos %70
+  ho -- mi --
+  nes et
+  pro -- _ _
+  _
+  _ _ _ %75
+  pter
+  no -- stram sa --
+  lu -- tem
+
+  de -- %81
+  scen -- _ _ _
+  _ _
+  _
+  dit %85
+  de
+  coe --
+
+  lis, de
+  coe -- %90
+  lis. %91 finis
+}

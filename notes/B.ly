@@ -485,3 +485,168 @@ GloriaBassoLyrics = \lyricmode {
   a -- %309
   men. %310 finis
 }
+
+CredoBasso = {
+  \relative c {
+    \clef bass
+    \twotwotime \key d \minor \time 2/2 \autoBeamOff \tempoCredo
+    R1
+    \mvTr d2.(\fE^\tuttiE e4)
+    f2 g
+    a cis,
+    d( b) %5
+    a cis
+    d4( e) f2
+    g4 f e d
+    e c! f a
+    c2 c, %10
+    R1*2
+    r2 b'4 a
+    g f e( d)
+    e2 f %15
+    c2. c4
+    f,2 r
+    R1*5 %22
+    f'1~
+    f4 b b a
+    g1~ %25
+    g4 c c b
+    a2 h
+    g a
+    f g
+    c, r %30
+    R1*8 %38
+    r2 a'
+    f4 d f( d) %40
+    g2 g
+    e4 c e c
+    f2 f4 f
+    d( b) d b
+    es( c) e c %45
+    f( d) fis d
+    g2. f4
+    es d c2
+    d1
+    d %50
+    g,
+    b2. b'4
+    b2 a
+    g1~
+    g2 f %55
+    es4 f es d
+    c2 h
+    c r
+    r4 c( d) es
+    f2 d %60
+    c4 c f2
+    b, g~
+    g g'
+    es f4 f
+    c2. c4 %65
+    f2 r
+    d1
+    d~
+    d2 d
+    f1 %70
+    e2. e4
+    d2 r
+    R1*2
+    r2 d %75
+    f4( d) a'2
+    b b4 b
+    a2 a,
+    R1
+    d2.( e4) %80
+    f2 g
+    a( cis,)
+    d b
+    a( cis)
+    d d' %85
+    cis4 b! a g
+    f e d c!
+    b( a) gis2
+    a1~
+    a %90
+    d\breve*1/2\fermata \bar "||" %91 finis
+  }
+}
+
+CredoBassoLyrics = \lyricmode {
+  Cre -- %2
+  do in
+  u -- num
+  De -- %5
+  um, fa --
+  cto -- rem
+  coe -- _ _ _
+  _ _ li et
+  ter -- rae, %10
+
+  et __ _ %13
+  _ _ in --
+  vi -- si -- %15
+  bi -- li --
+  um,
+
+  Fi -- %23
+  _ li -- um,
+  Fi -- %25
+  _ li -- um
+  De -- i
+  u -- ni --
+  ge -- ni --
+  tum, %30
+
+  De -- %39
+  um de De -- %40
+  o, lu --
+  men de lu -- mi --
+  ne, De -- um
+  ve -- rum de
+  De -- o, de %45
+  De -- o, de
+  De -- _
+  _ _ _
+  o
+  ve -- %50
+  ro,
+  ge -- ni --
+  tum non
+  fa --
+  _ %55
+  _ _ _ _
+  _ _
+  \xE ctum, \x
+  con -- sub --
+  stan -- ti -- %60
+  a -- lem Pa --
+  tri, per __
+  quem
+  o -- mni -- a
+  fa -- cta %65
+  \xE sunt, \x
+  qui
+  pro --
+  pter
+  nos %70
+  ho -- mi --
+  nes
+
+  et %75
+  pro -- pter
+  no -- stram sa --
+  lu -- tem,
+
+  et __ %80
+  pro -- pter
+  no --
+  stram sa --
+  lu --
+  tem de -- %85
+  scen -- _ _ _
+  _ _ _ _
+  dit __ de
+  coe --
+  %90
+  lis. %91 finis
+}
