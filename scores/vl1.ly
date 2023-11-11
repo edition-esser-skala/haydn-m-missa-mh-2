@@ -6,24 +6,33 @@
 
 \book {
   \bookpart {
-    \section "1" "First"
+    \section "1" "Kyrie"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper { indent = 2\cm systems-per-page = #7 }
     \score {
       <<
         \new Staff {
           \set Staff.instrumentName = "Violino I"
-          \xxxViolinoI
+          \KyrieViolinoI
         }
       >>
     }
   }
   \bookpart {
-    \section "2" "Second"
+    \section "2" "Gloria"
     \addTocEntry
     \score {
       <<
-        \new Staff { \yyyViolinoI }
+        \new Staff { \GloriaViolinoI }
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Credo"
+    \addTocEntry
+    \score {
+      <<
+        \new Staff { \CredoViolinoI }
       >>
     }
   }
